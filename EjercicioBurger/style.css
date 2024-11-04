@@ -1,0 +1,87 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, *::before, *::after {box-sizing: inherit;}
+
+body {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+/**/
+
+p {
+    margin: .5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 3.1rem;
+    margin: 0;
+}
+
+/**/
+
+form {
+    margin: auto;
+    background-color: #ffdb3c;
+    border-radius: 10px;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+}
+.img-burger {
+    margin: auto;
+    width: 10rem;
+}
+
+.caja {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 5rem;
+}
+label {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+input {
+    border: 1px solid #d1b432;
+    border-radius: 4px;
+    height: 2.5rem;
+}
+input:focus {
+    outline: 1px solid #a3880e;
+}
+
+.terminos {
+    align-items: center;
+}
+.botones {
+    padding: 0 5rem;
+}
+.horizontal {
+    flex-direction: row;
+}
+.pie,.cabecera {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.pie {
+    font-size: 1.4rem;
+}
+.boton {
+    height: 4rem;
+    background-color: #264edb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
