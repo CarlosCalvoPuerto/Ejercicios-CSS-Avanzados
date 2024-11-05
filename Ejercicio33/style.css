@@ -1,0 +1,127 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, *::before, *::after {box-sizing: inherit;}
+
+body {
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+/**/
+
+p {
+    margin: .5rem;
+}
+
+h1 {
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    margin: 0;
+    color: #fe4600;
+}
+
+a {
+    color: #be242c;
+    text-decoration: none;
+}
+
+/**/
+
+form {
+    margin: auto;
+    background-color: #fee3c5;
+    border-radius: 5px;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+}
+.img-burger {
+    margin: auto;
+    width: 10rem;
+}
+
+.caja {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem 5rem 1rem 2rem;
+    gap: 1rem;
+}
+label {
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 13rem;
+    text-align: end;
+    color: #be242c;
+}
+input, select {
+    border: 2px dotted #be242c;
+    color: #be242c;
+    font-weight: bold;
+    height: 4rem;
+    width: 35rem;
+}
+input:focus, select:focus {
+    outline: 2px solid #861b20;
+}
+option {
+    border: 1px solid #be242c;
+    background-color: #fee3c5;
+}
+option:checked {
+    background-color: #be242c;
+    color: #fff;
+}
+.sexo select {
+    width: auto;
+    padding: 0 1rem;
+    margin-right: 13.8rem;
+}
+.fecha {
+    padding-right: 6.8rem;
+}
+.fecha select {
+    width: auto;
+    padding: 0 1rem;
+}
+
+.terminos {
+    align-items: center;
+}
+.botones {
+    justify-content: center;
+    padding: 0 5rem;
+    margin-bottom: 5rem;
+}
+.enlace,.cabecera {
+    justify-content: center;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.cabecera {
+    margin-top: 6rem;
+}
+.enlace {
+    font-size: 1.3rem;
+}
+.boton {
+    height: 4rem;
+    padding: 0 2rem;
+    background-color: #be242c;
+    border: 1px solid #861b20;
+    color: #fff;
+    font-weight: 600;
+}
