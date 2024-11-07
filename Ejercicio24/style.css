@@ -1,0 +1,111 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, *::before, *::after {box-sizing: inherit;}
+
+body {
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #3498db;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/**/
+
+form {
+    
+    background-color: #85c1e9;
+    border-radius: 30px;
+}
+
+.cajon, .cabecera {
+    width: 50rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.column {
+    flex-direction: column;
+}
+
+h1 {
+    color: #fff;
+    margin-top: 5rem;
+}
+
+label, .titulo, .boton {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: .2rem;
+}
+
+.titulo {
+    border-bottom: 2px solid #fff;
+    margin-bottom: 1rem;
+}
+
+
+.text, textarea {
+    font-family: "Roboto", sans-serif;
+    border: 2px solid #fff;
+    background-color: #3498db;
+    width: 25rem;
+    padding: 2px 3px;
+    color: #fff;
+    border-radius: 5px;
+}
+textarea {
+    height: 15rem;
+}
+.text:focus, textarea:focus {
+    outline: 2px solid #85c1e9;
+}
+.opcion {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.boton {
+    padding: 1rem;
+    background-color: #3498db;
+    border: 2px solid;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: .8rem;
+}
+.label-boton {
+    cursor: pointer;
+    border: 2px solid;
+    margin-bottom: 2rem;
+}
+.boton:hover {
+    background-color: #aed6f1;
+    color: #3498db;
+}

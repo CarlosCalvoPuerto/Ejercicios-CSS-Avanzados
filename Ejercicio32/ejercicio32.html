@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Ejercicio 16</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formulario de contacto</h1>
+
+    <form action="" method="get">
+
+
+
+        <div class="caja borde">
+            <label for="nombre">Nombre y Apellido (*)</label>
+            <input class="texto" type="text" name="nombre" id="nombre" />
+        </div>
+
+
+        <div class="caja borde">
+            <label for="email">Email (*)</label>
+            <input class="texto" type="text" name="email" id="email" />
+        </div>
+        
+
+        <div class="caja horizontal borde">
+            <label for="genero">Genero</label>
+
+            <input type="radio" name="genero" id="hombre" >
+            <label for="hombre">Hombre</label>
+
+            <input type="radio" name="genero" id="mujer" >
+            <label for="mujer">Mujer</label>
+        </div>
+
+        <div class="caja horizontal borde">
+            <label for="Interes">Intereses</label>
+
+            <input type="checkbox" name="deporte" id="deporte">
+            <label for="deporte">Deporte</label>
+
+            <input type="checkbox" name="politica" id="politica">
+            <label for="politica">Politica</label>
+
+            <input type="checkbox" name="ciencia" id="ciencia">
+            <label for="ciencia">Ciencia</label>
+        </div>
+        
+        <div class="caja">
+            <label class="titulo" for="comentarios">Comentarios:</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+            <p class="small">Campos requeridos (*)</p>
+        </div>
+        
+
+        <div class="caja botones">
+            <button class="boton" type="submit">Enviar datos</button>
+            <button class="boton" type="reset">Borrar campos</button>
+        </div>
+
+    </form>
+</body>
+
+</html>

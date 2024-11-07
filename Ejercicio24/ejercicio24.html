@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>FORMULARIOS</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="get">
+
+        <div class="cabecera">
+            <h1>El gran formulario</h1>
+        </div>
+
+        <div class="cajon">
+            <div class="caja column">
+                <label class="titulo" for="nombre">Ingrese su nombre:</label>
+                <input class="text" type="text" name="nombre" id="nombre">
+            </div>
+
+            <div class="caja column">
+                <label class="titulo" for="mail">Ingrese su mail:</label>
+                <input class="text" type="text" name="mail" id="mail">
+            </div>
+            <div class="caja column">
+                <label class="titulo" for="comentarios">Comentarios:</label>
+                <textarea name="comentarios" id="comentarios"></textarea>
+            </div>
+            <br>
+        </div>
+
+        <div class="cajon">
+            <p class="titulo">Elije una de las siguientes opciones</p>
+            <div class="caja row">
+                <input type="radio" name="opciones" value="OpcionA" 
+                id="OpcionA">
+                <label for="OpcionA" class="opcion">OPCIÓN A</label>
+            </div>
+
+            <div class="caja row">
+                <input type="radio" name="opciones" value="OpcionB" 
+                id="OpcionB">
+                <label for="OpcionB" class="opcion">OPCIÓN B</label>
+            </div>
+            <div class="caja row">
+                <input type="radio" name="opciones" value="OpcionC" 
+                id="OpcionC">
+                <label for="OpcionC" class="opcion">OPCIÓN C</label>
+            </div>
+        </div>
+
+        <div class="cajon">
+            <div class="caja column">
+                <p class="titulo">Adjunte un archivo PDF a su solicitud</p>
+                <label class="label-boton boton" for="PDF">Seleccionar Archivo</label>
+                <input class="file" type="file" name="PDF" id="PDF" accept=".pdf">
+            </div>
+        </div>
+
+        <div class="cajon">
+            <input class="boton" type="submit" value="Enviar">
+        </div>
+
+    </form>
+</body>
+
+
+</html>
